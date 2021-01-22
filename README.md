@@ -6,7 +6,6 @@ Junior Library
 Interface for server to get data
 
 ## Todo
-Check all JLB equations are correct and rectify all issues
-Improve documentatin of code
-Senior library data is bad though
+Senior library data which is rather bad
+
 Get this talking with server that sends out to users
