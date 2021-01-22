@@ -13,7 +13,7 @@ import json
 #t refers to maximum or top value
 #b refers to minimum or bottom value
 #bs, b1, b2 refer to before school, break 1, break 2 respectively 
-#This is based on previous data
+#This is based on previous data collected by librians
 
 def Term1Mon(week):
     #2018
@@ -528,8 +528,8 @@ def Term4Wed(week):
     #2019
     t2019bs = round(-4.4*week+76)+20
     b2019bs = round(-4.4*week+76)+20
-    t2019b1 = 20
-    b2019b1 = 0
+    t2019b1 = 50
+    b2019b1 = 20
     t2019b2 = round(-6.1*week+97)+20
     b2019b2 = round(-6.1*week+97)-20
 
