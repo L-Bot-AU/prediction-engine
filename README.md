@@ -9,3 +9,6 @@ This is placed with the server code
 
 ## Todo
 Senior library data which is rather bad
+
+## Useage Instructions
+A file entitled days.json will need to be created when setting this up.
