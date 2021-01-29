@@ -23,5 +23,3 @@ def getData(term, week, day):
             return days[dayID]["Overall"]
     #This will get the data
     return p.callData(term, week, day)[dayID]["Overall"]
-
-print(getData(4,9,3))
