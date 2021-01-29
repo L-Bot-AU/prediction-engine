@@ -13,4 +13,4 @@ def getData(term, week, day):
         if key == dayID:
             return days[dayID]["Overall"]
     #This will get the data
-    return p.callData(term, week, day)["Overall"]
+    return p.callData(term, week, day)[dayID]["Overall"]
