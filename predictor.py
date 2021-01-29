@@ -15,6 +15,9 @@ import json
 #bs, b1, b2 refer to before school, break 1, break 2 respectively 
 #This is based on previous data collected by librians
 
+#TODO
+#Fix all the things
+
 def Term1Mon(week):
     #2018
     t2018bs = 85
@@ -288,8 +291,8 @@ def Term2Fri(week):
     #2018
     t2018bs = round(8.8*week+51)+20
     b2018bs = round(8.8*week+51)-20
-    t2018b1 = round(-1.8*week*week+18*week+12)+10
-    b2018b1 = round(-1.8*week*week+18*week+12)-10
+    t2018b1 = 40
+    b2018b1 = 20 #0 outlier
     t2018b2 = 65
     b2018b2 = 40
     #2019
@@ -438,12 +441,12 @@ def Term3Fri(week):
     t2018b2 = 80
     b2018b2 = 40
     #2019
-    t2019bs = round(-2.7*week*week+36.6*week+-22)+5
-    b2019bs = round(-2.7*week*week+36.6*week+-22)-5
-    t2019b1 = round(3.6*week+10)+10
-    b2019b1 = round(3.6*week+10)-10
-    t2019b2 = round(-2.0*week*week+26.6*week+4)+20
-    b2019b2 = round(-2.0*week*week+26.6*week+4)-20
+    t2019bs = 100
+    b2019bs = 80
+    t2019b1 = 50
+    b2019b1 = 20
+    t2019b2 = 100
+    b2019b2 = 60
 
     maxbs = max(t2018bs,t2019bs)
     minbs = min(b2018bs,b2019bs)
@@ -527,7 +530,7 @@ def Term4Wed(week):
     b2018b2 = round(-6.2*week+88)-30
     #2019
     t2019bs = round(-4.4*week+76)+20
-    b2019bs = round(-4.4*week+76)+20
+    b2019bs = round(-4.4*week+76)-20
     t2019b1 = 50
     b2019b1 = 20
     t2019b2 = round(-6.1*week+97)+20
