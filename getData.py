@@ -1,8 +1,6 @@
 import predictor as p
 import json
 
-
-
 def getData(term, week, day):
     """
     :param term: the term (1-4)
