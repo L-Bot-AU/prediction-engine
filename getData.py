@@ -18,6 +18,8 @@ def getData(term, week, day):
     dayID = str(term)+'-'+str(week)+'-'+str(day)
     for key in days:
         if key == dayID:
-            return days[dayID]["Overall"]
+            return {"Jnr":p.callData(term, week, day)[dayID]["Jnr"],
+            "Snr":p.callData(term, week, day)[dayID]["Snr"]}
     #This will get the data
-    return p.callData(term, week, day)[dayID]["Overall"]
+    return {"Jnr":p.callData(term, week, day)[dayID]["Jnr"],
+            "Snr":p.callData(term, week, day)[dayID]["Snr"]}
