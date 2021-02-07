@@ -4,11 +4,9 @@ This is what predicts the fullness of each library at the specific times of the 
 ## Currently Implemented
 Junior Library
 Interface for server to get data
-
-This is placed with the server code
-
-## Todo
-Senior library data which is rather bad
+Senior Library
+Testing output
 
 ## Useage Instructions
-A file entitled days.json will need to be created when setting this up.
+Place this with the server code and import the file "getData.py"
+The days.json file on here is required for functionality.
