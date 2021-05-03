@@ -1,23 +1,22 @@
 import json
-#Notes
-#Data is either and equation or a specified uppper and lower bounds
-#The equations are no more than degree 2. i.e. ax+c or ax^2+bx+c
-#a and b are always written with one decimal place e.g. 9.8 6.0
-#c is always a whole number
-#This is as detailed as each of these numbers need to be for predictions to work
-#days.json stores each days prediction the keys in it are t-w-d. (Term-week-day)
-#Day here is represented by a numerical value 1-5 for Mon-Fri
-#Variables for each function are named:
-#(t|b)<year><libID>(bs|b1|b2)
-#year = 2018|2019
-#libID = Jnr|Snr
-#t refers to maximum or top value
-#b refers to minimum or bottom value
-#bs, b1, b2 refer to before school, break 1, break 2 respectively 
-#This is based on previous data collected by librians
-
-#TODO
-#Put in Snr data
+"""
+Notes
+Data is either and equation or a specified uppper and lower bounds
+The equations are no more than degree 1. i.e. ax+c
+a is always written with one decimal place e.g. 9.8 6.0
+c is always an integer
+This is as detailed as each of these numbers need to be for predictions to work
+days.json stores each days prediction the keys in it are t-w-d. (Term-week-day)
+Day here is represented by a numerical value 1-5 for Mon-Fri
+Variables for each function are named:
+(t|b)<year><libID>(bs|b1|b2)
+year = 2018|2019
+libID = Jnr|Snr
+t refers to maximum or top value
+b refers to minimum or bottom value
+bs, b1, b2 refer to before school, break 1, break 2 respectively 
+This is based on previous data collected by librians
+"""
 
 def Term1Mon(week):
     #2018Jnr
