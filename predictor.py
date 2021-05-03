@@ -10,7 +10,7 @@ import json
 #Variables for each function are named:
 #(t|b)<year><libID>(bs|b1|b2)
 #year = 2018|2019
-#lib = Jnr|Snr
+#libID = Jnr|Snr
 #t refers to maximum or top value
 #b refers to minimum or bottom value
 #bs, b1, b2 refer to before school, break 1, break 2 respectively 
