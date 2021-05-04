@@ -12,14 +12,8 @@ def getData(term, week, day):
     #First trys to get data from file, if not found calls generator function
     #Makes sure bad data is not given (probably not needed)
     if term > 4 or day > 5:
-        return "Give me proper inputs you nong"
-    f = open("days.json")
-    days = json.load(f)
+         raise Exception("Data provided out of range")
     dayID = str(term)+'-'+str(week)+'-'+str(day)
-    for key in days:
-        if key == dayID:
-            return {"Jnr":p.callData(term, week, day)[dayID]["Jnr"],
-            "Snr":p.callData(term, week, day)[dayID]["Snr"]}
     #This will get the data
     return {"Jnr":p.callData(term, week, day)[dayID]["Jnr"],
             "Snr":p.callData(term, week, day)[dayID]["Snr"]}
