@@ -2,9 +2,9 @@ import json
 """
 Notes
 Data is either and equation or a specified uppper and lower bounds
-The equations are no more than degree 1. i.e. ax+c
+The equations are no more than degree 1. i.e. ax+b
 a is always written with one decimal place e.g. 9.8 6.0
-c is always an integer
+b is always an integer
 This is as detailed as each of these numbers need to be for predictions to work
 days.json stores each days prediction the keys in it are t-w-d. (Term-week-day)
 Day here is represented by a numerical value 1-5 for Mon-Fri
