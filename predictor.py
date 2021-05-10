@@ -51,9 +51,7 @@ def Term1Mon(week):
     minb2Jnr = min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -90,9 +88,7 @@ def Term1Tue(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
     
     return return_dict
 
@@ -129,9 +125,7 @@ def Term1Wed(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -168,9 +162,7 @@ def Term1Thu(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -207,9 +199,7 @@ def Term1Fri(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -250,9 +240,7 @@ def Term2Mon(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -293,9 +281,7 @@ def Term2Tue(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -332,9 +318,7 @@ def Term2Wed(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -371,9 +355,7 @@ def Term2Thu(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -410,9 +392,7 @@ def Term2Fri(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -449,9 +429,7 @@ def Term3Mon(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -488,9 +466,7 @@ def Term3Tue(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -527,9 +503,7 @@ def Term3Wed(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -566,9 +540,7 @@ def Term3Thu(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -605,9 +577,7 @@ def Term3Fri(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -644,9 +614,7 @@ def Term4Mon(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -683,9 +651,7 @@ def Term4Tue(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -722,9 +688,7 @@ def Term4Wed(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -761,9 +725,7 @@ def Term4Thu(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
@@ -800,9 +762,7 @@ def Term4Fri(week):
     minb2Jnr= min(b2018Jnrb2,b2019Jnrb2)
     
     return_dict ={  "Snr": [t2019Snrbs,b2019Snrbs,t2019Snrb1,b2019Snrb1,t2019Snrb2,b2019Snrb2,],
-                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr],
-                    "2018Jnr":[t2018Jnrbs, b2018Jnrbs, t2018Jnrb1, b2018Jnrb1, t2018Jnrb2, b2018Jnrb2],
-                    "2019Jnr":[t2019Jnrbs, b2019Jnrbs, t2019Jnrb1, b2019Jnrb1, t2019Jnrb2, b2019Jnrb2]}
+                    "Jnr": [maxbsJnr, minbsJnr, maxb1Jnr, minb1Jnr, maxb2Jnr, minb2Jnr]}
 
     return return_dict
 
