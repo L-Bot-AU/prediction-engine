@@ -15,5 +15,5 @@ def getData(term, week, day):
          raise Exception("Data provided out of range")
     dayID = str(term)+'-'+str(week)+'-'+str(day)
     #This will get the data
-    return {"Jnr":p.callData(term, week, day)[dayID]["Jnr"],
-            "Snr":p.callData(term, week, day)[dayID]["Snr"]}
+    return p.callData(term, week, day)
+print(getData(1,1,1))
