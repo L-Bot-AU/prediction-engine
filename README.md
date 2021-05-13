@@ -9,6 +9,5 @@ This is what predicts the fullness of each library at the specific times of the 
 
 ## Useage Instructions
 * Place this with the server code and import the file "getData.py"
-* The days.json file on here is required for functionality.
 * addData.cpp requires an external json library which can be found here: https://github.com/nlohmann/json
 * Download the single header useage of it, and place that into the appropriate directory.
