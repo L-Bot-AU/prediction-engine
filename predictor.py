@@ -11,7 +11,6 @@ def callData(term, week, day):
     calcData = {}
     calcData = json.load(f)
     f.close()
-    #pred = {}
     
     jnr_count = 0
     jnr_bs = 0
