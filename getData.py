@@ -1,4 +1,4 @@
-import predictor as p
+import predictor
 import json
 
 def getData(term, week, day):
@@ -9,11 +9,9 @@ def getData(term, week, day):
     :return: an array in the format: `[before school max, before school min, break 1 max, break 1 min, break 2 max, break 2 min]`
     """
 
-    #First trys to get data from file, if not found calls generator function
     #Makes sure bad data is not given (probably not needed)
-    if term > 4 or day > 5:
+    if term > 4 or day > 5 or week > 13:
          raise Exception("Data provided out of range")
     dayID = str(term)+'-'+str(week)+'-'+str(day)
     #This will get the data
-    return p.callData(term, week, day)
-print(getData(1,1,1))
+    return predictor.callData(term, week, day)
