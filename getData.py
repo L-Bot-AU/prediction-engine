@@ -70,7 +70,7 @@ def weightData(initial_prediction):
 #Stub
 def getWeights(library):
      if library == "Jnr":
-          return {2018:1,2019:2}
+          return {2018:1,2019:1}
      elif library == "Snr":
           return {2019:1}
      else:
