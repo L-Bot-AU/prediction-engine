@@ -1,5 +1,4 @@
 import predictor
-import json
 
 time_interval_count = 3
 
@@ -48,7 +47,7 @@ def weightData(initial_prediction):
 
      #Divides each summed value for each time period
      for i in range(0,time_interval_count-1):
-               new["Jnr"][i] = round((new["Jnr"][i]/count))
+         new["Jnr"][i] = round((new["Jnr"][i]/count))
 
      #Snr
      weights = getWeights("Snr")
@@ -61,7 +60,7 @@ def weightData(initial_prediction):
 
      #Divides each summed value for each time period
      for i in range(0,time_interval_count-1):
-               new["Snr"][i] = round((new["Snr"][i]/count))
+         new["Snr"][i] = round((new["Snr"][i]/count))
 
      return new
 
