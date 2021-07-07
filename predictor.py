@@ -14,7 +14,6 @@ def callData(term, week, day):
     
     return_dict = {"Jnr":{}, "Snr":{}}
 
-    jnr_count = 0
     jnr_bs = 0
     jnr_b1 = 0
     jnr_b2 = 0
@@ -23,10 +22,8 @@ def callData(term, week, day):
         jnr_bs = working["bs"]["m"]*week + working["bs"]["b"]
         jnr_b1 = working["b1"]["m"]*week + working["b1"]["b"]
         jnr_b2 = working["b2"]["m"]*week + working["b2"]["b"]
-        jnr_count +=1
         return_dict["Jnr"][year] = [jnr_bs,jnr_b1,jnr_b2]
         
-    snr_count = 0
     snr_bs = 0
     snr_b1 = 0
     snr_b2 = 0
@@ -35,7 +32,6 @@ def callData(term, week, day):
         snr_bs = working["bs"]["m"]*week + working["bs"]["b"]
         snr_b1 = working["b1"]["m"]*week + working["b1"]["b"]
         snr_b2 = working["b2"]["m"]*week + working["b2"]["b"]
-        snr_count +=1
         return_dict["Snr"][year] = [snr_bs,snr_b1,snr_b2]
 
     return return_dict
