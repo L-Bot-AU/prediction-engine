@@ -25,8 +25,6 @@ float take_valid_float(string input_request){
     return input;
 }
 
-
-
 int take_valid_integer(string input_request){
     bool valid = false;
     int input;
